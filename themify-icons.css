@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'themify';
-	src:url('https://vietblogdao.github.io/fonts/themify.eot?-fvbane');
-	src:url('https://vietblogdao.github.io/fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('https://vietblogdao.github.io/fonts/themify.woff?-fvbane') format('woff'),
-		url('https://vietblogdao.github.io/fonts/themify.ttf?-fvbane') format('truetype'),
-		url('https://vietblogdao.github.io/fonts/themify.svg?-fvbane#themify') format('svg');
+	src:url('/fonts/themify.eot?-fvbane');
+	src:url('/fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('/fonts/themify.woff?-fvbane') format('woff'),
+		url('/fonts/themify.ttf?-fvbane') format('truetype'),
+		url('/fonts/themify.svg?-fvbane#themify') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1078,4 +1078,21 @@
 }
 .ti-rss-alt:before {
 	content: "\e75f";
+}
+.ti-lg {
+	font-size:1.33333333em;
+	line-height:0.75em;
+	vertical-align:-15%;
+}
+.ti-2x {
+	font-size:2em;
+}
+.ti-3x {
+	font-size:3em;
+}
+.ti-4x {
+	font-size:4em;
+}
+.ti-5x {
+	font-size:5em;
 }
